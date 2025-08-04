@@ -1,0 +1,23 @@
+/* ModeSelector.css */
+.mode-selector {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.25rem;
+}
+
+.mode-button {
+    margin-bottom: 0.625rem;
+    padding: 0.625rem;
+    border: 0.1rem solid #999;
+    cursor: pointer;
+    background-color: #eee;
+    color: #000;
+    font-weight: normal;
+    min-width: 10rem;
+}
+  
+.mode-button.active {
+    background-color: #1976d2;
+    color: #fff;
+    font-weight: bold;
+}

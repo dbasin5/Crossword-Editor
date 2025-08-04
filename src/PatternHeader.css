@@ -1,0 +1,18 @@
+.pattern-header {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.pattern-header.valid {
+  background-color: #d4edda; /* light green */
+  color: #155724;
+}
+
+.pattern-header.invalid {
+  background-color: #f8d7da; /* light red */
+  color: #721c24;
+}

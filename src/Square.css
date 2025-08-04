@@ -1,0 +1,48 @@
+/* Square.css */
+.square {
+    width: 4rem;
+    height: 4rem;
+    border: 0.0625rem solid #999;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.square.white {
+    background-color: #fff;
+    color: #000;
+}
+  
+.square.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.square-number {
+    position: absolute;
+    top: 0.125rem;
+    left: 0.25rem;
+    font-size: 0.625rem;
+    font-weight: bold;
+}
+
+.square-input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: inherit;
+    caret-color: transparent;
+}
+
+.square.focused {
+    background-color: #ffe4b5;
+}
