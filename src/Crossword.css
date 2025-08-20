@@ -7,9 +7,17 @@
 }
 
 .crossword-container {
-  display: flex;
-  align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
 }
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    gap: 1rem; /* optional spacing between ModeSelector and ExportPanel */
+}
+  
 
 .crossword-grid-wrapper {
   display: flex;

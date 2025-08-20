@@ -6,6 +6,8 @@ import { isValidCrosswordPattern } from './validPattern';
 import Clues from './Clues';
 import PatternHeader from './PatternHeader';
 import './Crossword.css';
+import PuzzleExportPanel from './PuzzleExportPanel';
+
 
 const Crossword: React.FC = () => {
   const gridSize = 5;
@@ -58,7 +60,7 @@ const Crossword: React.FC = () => {
   // Calculate numbers dynamically (unchanged)
   let counter = 1;
 
-    const numbers: (number | undefined)[][] = Array(gridSize)
+  const numbers: (number | undefined)[][] = Array(gridSize)
     .fill(null)
     .map(() => Array(gridSize).fill(undefined));
 
@@ -125,7 +127,17 @@ const Crossword: React.FC = () => {
 
   return (
     <div className="crossword-container">
-        <ModeSelector mode={mode} onChange={setMode} />
+        <div className="left-panel">
+            <ModeSelector mode={mode} onChange={setMode} />
+            <PuzzleExportPanel
+            pattern={pattern}
+            letters={letters}
+            numbers={numbers}
+            clues={clues}
+            width={gridSize}
+            height={gridSize}
+            />
+        </div>
 
         <div className="crossword-grid-wrapper">
         <PatternHeader isValid={isValidCrosswordPattern(pattern)} />
@@ -200,6 +212,7 @@ const Crossword: React.FC = () => {
             downClueNumbers={downClueNumbers}
         />
     </div>
+    
   );
 };
 
