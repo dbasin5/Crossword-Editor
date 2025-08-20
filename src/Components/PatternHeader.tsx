@@ -1,5 +1,5 @@
 import React from 'react';
-import './PatternHeader.css';
+import '../Styles/PatternHeader.css';
 
 interface PatternHeaderProps {
   isValid: boolean;

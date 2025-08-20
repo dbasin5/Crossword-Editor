@@ -1,4 +1,4 @@
-import { IPuz,GeneratePuzzleArgs } from "./types";
+import { IPuz,GeneratePuzzleArgs } from "../types";
 
 export function makeIPuz({
     width,

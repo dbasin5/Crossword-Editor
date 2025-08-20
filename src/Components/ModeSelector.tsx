@@ -1,6 +1,6 @@
 import React from 'react';
-import { EditMode } from './types';
-import "./ModeSelector.css";
+import { EditMode } from '../types';
+import "../Styles/ModeSelector.css";
 
 interface ModeSelectorInterface {
   mode: EditMode;

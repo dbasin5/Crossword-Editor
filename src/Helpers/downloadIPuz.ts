@@ -1,4 +1,4 @@
-import { IPuz } from "./types";
+import { IPuz } from "../types";
 
 export function downloadIPuz(ipuz: IPuz) {
   const json = JSON.stringify(ipuz, null, 2); // pretty-printed for readability

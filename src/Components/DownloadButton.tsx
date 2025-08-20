@@ -1,5 +1,5 @@
 import React from 'react';
-import './DownloadButton.css';
+import '../Styles/DownloadButton.css';
 
 interface DownloadButtonProps {
   onClick: () => void;

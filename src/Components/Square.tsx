@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import './Square.css';
+import '../Styles/Square.css';
 
 interface SquareProps {
   number?: number;

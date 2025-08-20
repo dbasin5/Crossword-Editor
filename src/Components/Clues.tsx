@@ -1,5 +1,5 @@
 import React from 'react';
-import './Clues.css';
+import '../Styles/Clues.css';
 
 interface CluesProps {
   mode: 'whiteBlack' | 'letters' | 'clues';

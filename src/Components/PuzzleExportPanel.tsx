@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './PuzzleExportPanel.css';
-import { GeneratePuzzleArgs } from './types';
-import { makeIPuz } from './makeIPuz';
-import { downloadIPuz } from './downloadIPuz';
+import '../Styles/PuzzleExportPanel.css';
+import { GeneratePuzzleArgs } from '../types';
+import { makeIPuz } from '../Helpers/makeIPuz';
+import { downloadIPuz } from '../Helpers/downloadIPuz';
 
 interface PuzzleExportPanelProps {
   pattern: boolean[][];
