@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# Crossword Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Basic Functionality
+
+The Crossword Editor allows you to build out a customized crossword for others to enjoy! Here's some key features I built out:
+* Design your grid by switching between black and white squares with a single click
+* Type letters directly into each square — with smart keyboard navigation, auto-tab, and backspace handling
+* Write and organize clues in a dedicated side panel that updates live with your grid
+* See real-time pattern validation so your puzzles are structurally solid
+  * More specifically, I use standard unwritten crossword rules here - each word has to be 3+ letters in length
+* Export your crossword to the iPuZ format, where you can add a custom title, author, and clues
+  * Here's [an example site](https://viresh-ratnakar.github.io/exolve-player.html) where you can upload your ipuz for printing and/or playing
+ 
+## Coming Soon
+
+* Save drafts of your crossword to a database to come back to later
+* More options for the shape of your crossword + adding themed entries and rhebus squares
+* Linking out puzzles to friends directly
+* Better mobile UI
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
+Here's some documentation from Create-react-app on basic scripts that are available for you to use in this directory:
+* `npm start`
+  * Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* `npm test`
+  * Launches the test runner in the interactive watch mode.
+* `npm run build`
+  * Builds the app for production to the `build` folder.
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
